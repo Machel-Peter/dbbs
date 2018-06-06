@@ -1,0 +1,172 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*design by wicool*/
+/*QQ:2950675830*/
+/*common*/
+.frame-1 {background-color:transparent !important;background-image:none !important;border:0 none !important;margin:0 !important;padding:0 !important;border-width:0px;height: auto}
+.frame-1-c {background-color:transparent !important;background-image:none !important;border:0 none !important;margin:0 !important;padding:0 !important;border-width:0px;height: auto;}
+.move-span{background-color:transparent !important;background-image:none !important;border:0 none !important;margin:0 !important;padding:0 !important;border-width:0px;height:auto;}
+.move-span .content{background-color:transparent !important;background-image:none !important;border:0 none !important;margin:0 !important;padding:0 !important;border-width:0px;height:auto;}
+*{ margin:0; padding:0;}
+.clear{ clear:both;}
+ul li{ list-style:none;}
+a{color: #333;}
+body{ font-family:microsoft yahei;color: #333;background: #F3F3F3;}
+img{ border:0;}
+.mb5 {margin-bottom: 5px;}
+.mb20{ margin-bottom:20px;}	
+.mb30{ margin-bottom:30px;}
+.mb80{ margin-bottom:80px;}	
+.mt80{ margin-top:80px;}
+.mt30{ margin-top:30px;}
+.mt50{ margin-top:50px;}
+.mt25{ margin-top:25px;}
+.mt20{ margin-top:20px;}
+.mt15{ margin-top:15px;}
+.mt10{ margin-top:10px;}
+.mt5{ margin-top:5px;}
+.mb10 {margin-bottom: 10px;}
+.mb15 {margin-bottom: 15px;}
+.mr10{ margin-right:10px;}
+.ml10{ margin-left:10px;}
+.ml20{ margin-left:20px;}
+.mr15{ margin-right:15px;}
+.pt5{ padding-top:5px;}
+.pt10{ padding-top:10px;}
+.pt20{ padding-top:15px;}
+.pt15{ padding-top:20px;}
+.pl10{ padding-left:10px;}
+.pl20{ padding-left:20px;}
+.pb20{ padding-bottom:20px;}
+.pr10{ padding-right:10px;}
+.ct2_a .mn{ width:980px;}
+.ct3_a .mn{width: 735px;}
+.ct2 .mn{ width:860px;}
+.wp{ width:1200px;}
+
+
+/*template_different*/
+.icon{background: url({STYLEIMGDIR}/icon.png) 0 -200px repeat-x;}
+#qmenu{width: 195px; height:42px; margin:0; padding:0;line-height: 42px; font-size: 16px; font-weight: normal; background: #1e75bc url({STYLEIMGDIR}/bass.gif) 171px 0 no-repeat;  text-align: center; color: #FFF; cursor: pointer;}
+   #qmenu span{ background: url({STYLEIMGDIR}/bass.gif) 80px -43px no-repeat; padding-right: 40px;}
+#qmenu.a{ background: #1e75bc url({STYLEIMGDIR}/bass.gif) 171px 0 no-repeat;}
+	#qmenu.a span{background: url({STYLEIMGDIR}/bass.gif) 80px -59px no-repeat}
+
+/*common breadcrumbs*/
+#pt{ margin:0; height:50px; line-height: 50px; color: #6f6f6f; font-size:14px;}
+#pt .z a, #pt .z em, #pt .z span,#pt .y{ height:50px!important; line-height:50px!important;}
+#pt .z{}
+.nvhm{ width:auto; background:none;}
+#pt .z em{ text-align:center; font-size:16px;color: #afafaf; background:none;}
+#pt.bm{ box-shadow:none;}
+
+
+/*toptb*/
+#toptb { background: #f6f6f6; border-bottom: 1px solid #ebebeb;}
+
+
+
+
+/*header*/
+.wic_header{}
+	.wic_header_top{ padding: 15px 0;background-color: #fff;}
+		.wic_logo{}
+		.wic_login{}
+	.wic_header_bottom{height: 43px; background-color: #2186da;  border-bottom: #ffc000 solid 3px;}
+		.wic_nav{ width:700px; height:43px; overflow:hidden;}
+			.wic_nav ul{}
+				.wic_nav li{ float:left; line-height: 43px; width: 100px; text-align: center; }
+				.wic_nav li:hover {}
+					.wic_nav li a{color: #fff; display: block; height: 43px;padding: 0 20px; font-size: 16px;}
+					.wic_nav li a:hover{ background-color:#1E75BC; color:#ffc000;text-decoration:none;}
+				.wic_nav li.a{}
+					.wic_nav li.a a{background-color:#ffc000;color:#735703;}
+				.wic_nav li span{ display:none;}
+		.wic_search{ margin-top:20px;}
+			#scbar{ border:none; background:none; height:40px; line-height:40px;}
+				.scbar_icon_td{ display:none;}
+				.scbar_txt_td{ background:none;}
+					#scbar_txt{width: 220px;  height: 38px;  border: 1px solid #e3e3e3; text-indent:10px;}
+					.scbar_narrow #scbar_txt{width:220px; }	
+				.scbar_type_td{ display:none;}
+				.scbar_btn_td{ background:none;}
+					#scbar_btn{width: 78px; height: 40px; line-height: 40px; text-align: center;  color: #fff; font-weight: bold;  font-size: 14px; border: 1px solid #ecb200;background: #ffc000; cursor: pointer;}
+					#scbar_btn strong{ line-height:40px; padding:0; color:#fff; font-weight:normal;}
+				.scbar_hot_td{ display:none;}
+
+
+/*login*/
+#um{ padding-top:0; padding-right:0;}
+#um .avt{ margin-right:0;}
+#um .avt img{ width:20px; height:20px; margin-top:2px;}
+.vwmy{ background-position:left center;}
+.qq_bind{ margin-top:5px;}
+
+.qqlogin,.wxlogin{ margin-top:2px;}
+
+
+/*footer*/
+#ft{ padding:0; border:none;}
+.wic_footer{ color: #afafaf; padding:10px; font-size:14px; overflow:hidden; height:60px; line-height:30px; margin-top: 30px; background:#fff;}
+	.wic_footer .wp{}
+	.wic_footer a{ color:#3f3f3f;}
+	.wic_footer strong a{color: #3f3f3f;}
+	.wic_footer strong a:hover{ color:#1499f8; text-decoration:none;}
+
+
+					
+
+
+
+
+
+
+
+/*drop-down menu*/
+.p_pop,.p_pof,.sllt{padding:5px;border:1px solid;border-color:#028ece;background:#fff;color:#028ece;box-shadow:none;}
+.p_pop a{color:#028ece;border-bottom:none;}
+.p_pop a:hover{background-color:#fff;color:#028ece;text-decoration:none;}
+
+
+
+
+
+	
+/*mu*/
+#mu{width: 100%; z-index:9;}
+#mu ul{border-bottom: 1px solid #e6e6e6; background: #f3f4f5;line-height:42px;border-top:none;}
+#mu ul.floatmu{ width:100%;}
+#mu ul li{height: 42px; line-height:42px;}
+#mu ul li a{color: #444;display: block;font-size: 14px;height: 42px;line-height: 42px;text-align: center;vertical-align: middle;text-decoration: none;list-style: outside; margin:0; padding:0 20px;}
+#mu ul li a:hover{ color:#028ece; text-decoration:none; border:none; background:none; margin:0; padding:0 20px;}
+
+
+
+
+
+
+
+
+/*btn*/
+.pn,.pnc, a.pnc {color:#fff !important;border-color: #028ece;background: none;background-color: #028ece;}
+
+/*app-remind*/
+.focus{ background:none;}
+	.focus .bm{border: 1px solid #e6e6e6; padding:15px; border: 1px solid #e3e5e8;}
+	.focus .bm_h{ background:none; padding:0; border:none;border-bottom: 1px solid #e6e6e6;}
+	.focus .bm_h h2{ font-size:14px; border:none;}
+	.focus .bm_c{ padding:10px 0 0;}
+	
+	
+.card{ border-color:#ccc;}
+.card .o a{ background:#fff; border:1px solid #eee;}
+.card_gender_0{ background:#fff;}
+
+
+
+	
+	
+
+#scrolltop a{background: url({STYLEIMGDIR}/scrolltop.png) no-repeat 0 0;}
+

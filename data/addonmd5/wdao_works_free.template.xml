@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[wdao_works_free.template]]></item>
+	<item id="RevisionID"><![CDATA[75487]]></item>
+	<item id="SN"><![CDATA[2018052417zKhG8XXt93]]></item>
+	<item id="RevisionDateline"><![CDATA[1501992436]]></item>
+	<item id="Data">
+		<item id="/common/extend_common.css"><![CDATA[e2dfb61770bd4bba8b1a1beebd47ae12]]></item>
+		<item id="/common/extend_module.css"><![CDATA[8734537b4624a609ecd340f82514eebb]]></item>
+		<item id="/common/header.php"><![CDATA[29d2ff9a84548023b2f0319bf074538c]]></item>
+		<item id="/common/header_common.php"><![CDATA[c79cfcbb66dcb96ee91019b0a3e5874a]]></item>
+		<item id="/common/header_userstatus.php"><![CDATA[894fbba1ca28c9a33275a76d6a00b3af]]></item>
+		<item id="/common/header_w.php"><![CDATA[14fe8994d0ae68706a049d330b950527]]></item>
+		<item id="/common/pubsearchform.php"><![CDATA[90aed706c6f24b640c4e85a715ec3647]]></item>
+		<item id="/common/wdao_search.php"><![CDATA[09703349bf948da5dabdb24cae6f120a]]></item>
+		<item id="/common/widthauto.css"><![CDATA[6ef806d1f261de3ff7720b3cbaf963f0]]></item>
+		<item id="/common/wysiwyg.css"><![CDATA[33f98669e738a612be04d0526ec2e9b7]]></item>
+		<item id="/discuz_style_wdao_works_free.xml"><![CDATA[1a0a900e543e90cd2bece9bbc0a13d54]]></item>
+		<item id="/forum/discuz.php"><![CDATA[43093613f7067e819c1f1391ed486ced]]></item>
+		<item id="/portal/index.php"><![CDATA[f42dede8ebc884d465a02988dd30ad8a]]></item>
+		<item id="/preview.jpg"><![CDATA[4bfb2f3a6c2c85c5fb3beee0f8ede124]]></item>
+		<item id="/wdao/background.png"><![CDATA[f8446b4a36f787a94ea3676fb35b9f50]]></item>
+		<item id="/wdao/css/wdao_index.css"><![CDATA[d098220bfb7694f0d5a080cfaf6da13c]]></item>
+		<item id="/wdao/img/1.jpg"><![CDATA[0964e524542c63e38f274be506453e5a]]></item>
+		<item id="/wdao/img/2.jpg"><![CDATA[eaedd94cf6a690b4f582dfa44842544e]]></item>
+		<item id="/wdao/img/ad1.png"><![CDATA[b6157e9ff4038df22d3f44b3636ce62b]]></item>
+		<item id="/wdao/img/ad2.png"><![CDATA[b807f2c698b9e7ece59c49e70cd4c424]]></item>
+		<item id="/wdao/img/ad_ctr.png"><![CDATA[b0eba423dc82fad355a459994dd85a43]]></item>
+		<item id="/wdao/img/clock.jpg"><![CDATA[a5f47cb26826ae4da5a588603a33cf2c]]></item>
+		<item id="/wdao/img/dot.png"><![CDATA[d6b108dcfef85793f952c762e6f41ed4]]></item>
+		<item id="/wdao/img/dot8.png"><![CDATA[2671f46a1f9f630c64a04bc38877692c]]></item>
+		<item id="/wdao/img/logo.png"><![CDATA[e3e95601589af8573a7a2d9830981a08]]></item>
+		<item id="/wdao/img/time_ico.png"><![CDATA[b145a006743dfb7e39991232c4ea9967]]></item>
+		<item id="/wdao/img/wdao_close.png"><![CDATA[5d98601ec52b6774ecd063c7426e7643]]></item>
+		<item id="/wdao/img/wdao_sou.png"><![CDATA[557735e6f2a67a8491760e957cc18ab1]]></item>
+		<item id="/wdao/img/wdao_works_author.png"><![CDATA[c9c3a3160215ffc48d3d5d44b83b9763]]></item>
+		<item id="/wdao/img/wdao_xiaoxi.png"><![CDATA[0ee2183c2cb2120f38325f2fb30929d3]]></item>
+		<item id="/wdao/js/html5shiv.min.js"><![CDATA[72b58a627c6f9291b3b335d1dca98f10]]></item>
+		<item id="/wdao/js/jquery-2.2.3.min.js"><![CDATA[33cabfa15c1060aaa3d207c653afb1ee]]></item>
+		<item id="/wdao/js/jquery.js"><![CDATA[ef3d5fb2358872750b0655941fb0a9a5]]></item>
+		<item id="/wdao/js/jquery.SuperSlide.js"><![CDATA[cd674d9e02f20426d9acf1d11c85539b]]></item>
+		<item id="/wdao/js/respond.min.js"><![CDATA[39ca775382cdb6855c42725c71e032e6]]></item>
+		<item id="/wdao/js/wdao_core.js"><![CDATA[5f9a9fb6f08bb5dd2b29d72e4615b344]]></item>
+		<item id="/wdao/logo.png"><![CDATA[e3e95601589af8573a7a2d9830981a08]]></item>
+		<item id="/wdao/vlineb.png"><![CDATA[e4543e9fa31c3cdff051c79f24f71a37]]></item>
+	</item>
+</root>

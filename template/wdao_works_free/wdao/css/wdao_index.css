@@ -1,0 +1,179 @@
+ /* -----------------------------------------------------------------
+
+The CSS written by Wdao.
+
+(C) Wdao Inc.
+
+
+Wdao!Design www.wdao.cc使用原代码请联系作者QQ: 123855527 /
+
+
+
+---------------------------------------------------------------------------------------*/
+
+
+
+a { color: #222222}
+.wdao_w{width:100%;margin:0 auto}
+a:hover { text-decoration: none}
+.wdao_wp{width:1200px;margin:0 auto}
+.wdao_l{width:800px;float:left}
+.wdao_r{width:340px;float:right;padding-bottom: 20px}
+.wdao_content{position:relative;overflow:hidden;display:block;margin-bottom:30px;background:#fff;box-shadow:0 2px 5px 0 hsla(0,0%,57%,.1);-webkit-transition:all .6s ease;transition:all .6s ease}
+.wdao_content:hover{box-shadow:0 8px 25px 0 hsla(0,0%,57%,.21)}
+.frame, .frame-tab { background:none !important}
+
+/* 幻灯片/Banner */
+	.focusBox { position: relative; width:1200px; height:413px; overflow: hidden; }
+	.focusBox .pic{ position:relative; z-index:0; }
+	.focusBox .pic img { width:1200px; height:413px; display: block; }
+	.focusBox .hd { width:100%; position: absolute; bottom: 10px; text-align: center; font-size:0; z-index:1; }
+	.focusBox .hd li{margin: 0 5px; background: url(../img/dot.png) no-repeat 0 -16px; height: 16px; overflow: hidden; width: 16px; cursor: pointer;
+		display:inline-block; *display:inline; zoom:1;  _background: url(../img/dot8.png) no-repeat 0 -16px;
+	}
+	.focusBox .hd .on{ background-position:0 0; }
+
+	.focusBox .prev,
+	.focusBox .next { width: 60px; height: 90px; margin: -60px 0 0; display: none; background: url(../img/ad_ctr.png) no-repeat 0 0; position: absolute; top: 50%; z-index: 10; cursor: pointer; text-indent: -9999px; filter:alpha(opacity=20);opacity:0.2;  }
+	.focusBox .prev { left: 0; }
+	.focusBox .next { background-position: 0 -90px; right: 0; }
+	.focusBox .prev:hover,
+	.focusBox .next:hover { filter:alpha(opacity=50) !important;opacity:0.5 !important;  }
+/*今日推荐 */
+.wdao_works_tt a{
+    cursor: pointer;
+    font-size: 14px;
+    display: block;
+    line-height: 26px;
+    color: #333333;
+    margin-right: 60px;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    border-bottom: solid 2px #fff;
+	margin:20px 0
+}
+.wdao_works_box .works {
+    background: #fff;
+    width: 285px;
+    overflow: hidden;
+	    float: left; 
+    padding-bottom: 12px;
+    border: solid 0px #eee; 
+    margin:0 10px 20px; 
+    position: relative;
+}
+.wdao_works_box .works .img {
+    width: 283px;
+    height: 177px;
+}
+.wdao_works_box .works .title-label {
+    width: 283px;
+    border: 1px solid #eee;
+}
+ .wdao_works_box .works .title {
+    height: 24px;
+    overflow: hidden;
+	line-height: 24px;
+    padding-top: 10px;
+}
+.wdao_works_box .works .title a {
+    color: #262626;
+}
+.wdao_works_box .works .item-label {
+    margin: 10px;
+    overflow: hidden;
+}
+.wdao_works_box .works .item-label .author i {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    background: url(../img/wdao_works_author.png) no-repeat 0 0 / 11px 11px;
+    margin-right: 4px;
+    position: relative;
+    top: 1px;
+}
+.wdao_works_box .works .item-label .time i {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    background: url(../img/time_ico.png) no-repeat 0 0 / 11px 11px;
+    margin-right: 4px;
+    position: relative;
+    top: 1px;
+}
+/* 社区热点*/
+.wdao_ll{ 
+    width: 840px;
+    float: left;
+}
+.labels {
+    overflow: hidden;
+    border-bottom: #ddd 1px dotted;
+}
+.labels .img {
+    width: 260px;
+    height: 152px;
+    position: relative;
+    margin: 25px 0;
+    background: #000;
+    float: left;
+}	
+.labels .img img {
+    width: 260px;
+    height: 152px;
+}
+.labels .r {
+    float: left;
+    width: 550px;
+    padding-left: 28px;
+    padding-top: 30px;
+}
+.labels .r .a {
+    font-size: 18px;
+}
+.labels .r .date {
+    font-size: 12px;
+    padding-top: 4px;
+}
+.labels .r .ms {
+    color: #777;
+    padding-top: 15px;
+}
+/* 热点聚焦*/
+.wdao_blog_re{
+    padding: 8px 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #333333;
+    font-size: 1.2em;
+    margin: 5px 0 10px 15px;
+}
+.wdao_blog_re_img{    padding: 0 10px;}
+.wdao_blog_re_info{
+    position: relative;
+    min-height: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+	    width: 200px;
+}
+.text-more {margin-bottom: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+}
+.text-more a{color: #777;font-weight:normal;padding-right:10px}
+.wdao_blog_re_info .author a{color:#777; padding-right: 10px;}
+.wdao_blog_re_time{
+    position:relative;
+	text-align: right;
+    right: 0;
+    bottom: 0;
+}
+/* end */
+
+
+

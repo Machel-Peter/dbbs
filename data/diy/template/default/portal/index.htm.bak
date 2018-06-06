@@ -1,0 +1,17 @@
+<!--{template common/header}-->
+<style id="diy_style" type="text/css"></style>
+<div class="wp">
+	<!--[diy=diy1]--><div id="diy1" class="area"><div id="frameE4LSN4" class="frame move-span cl frame-1-1-1"><div class="title frame-title"><span class="titletext">快报</span></div><div id="frameE4LSN4_left" class="column frame-1-1-1-l"><div id="frameE4LSN4_left_temp" class="move-span temp"></div><!--{block/46}--></div><div id="frameE4LSN4_center" class="column frame-1-1-1-c"><div id="frameE4LSN4_center_temp" class="move-span temp"></div></div><div id="frameE4LSN4_right" class="column frame-1-1-1-r"><div id="frameE4LSN4_right_temp" class="move-span temp"></div></div></div></div><!--[/diy]-->
+	<!--[diy=diy2]--><div id="diy2" class="area"></div><!--[/diy]-->
+	<!--[diy=diy3]--><div id="diy3" class="area">
+											<p>【排三排五讨论区】134期阅读:3</p>
+											<p>【北京赛车PK10】8码滚雪球500本金阅读:8</p>		
+											<p>【排三排五讨论区】134期看尾跨和阅读:8
+											<p>【北京赛车PK10】8码滚雪球500本金阅读:8</p>
+											<p>【快乐八】我的水帖阅读:7</p>
+											<p>【北京赛车PK10】8码滚雪球500本金阅读:8</p>
+										</div><!--[/diy=diy3]-->
+	<!--[diy=diy3]--><div id="clear" class="area"></div><!--[/diy=diy3]-->
+</div>
+
+<!--{template common/footer}-->
