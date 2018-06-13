@@ -1,0 +1,30 @@
+body{line-height:20px;font-family: Verdana, Geneva,"宋体", Helvetica, sans-serif; font-size:12px; margin:0; padding:0;}
+*{margin:0; padding:0;}
+a { color:#26211d; text-decoration: none;}
+img{ border:none;}
+a:hover {text-decoration: underline;}
+.mymain{margin:0 auto; height:242px;margin-bottom: 10px;}
+.mymain .public_border{border:1px solid #ccc;}
+.flashbox{width:390px; height:240px; float:left; position:relative; float:left;}
+.flashbox .focusNew_out{position:relative; z-index:2;}
+.flashbox .focusNew_out .f_out_txt{ height:50px;width:220px; display:block; position:absolute; bottom:0; left:0; background-color:#000000; opacity:0.8; color:#d6d6d6; font-size:20px; font-family:"微软雅黑"; line-height:50px; padding:0 150px 0 20px; overflow:hidden;}
+.flashbox .focusNew_out .f_out_txt a{color:#d6d6d6;}
+.flashbox .f_tabs{width:140px;height:35px;position:absolute;bottom:15px;right:0px;z-index:100;}
+.mymain .formnews{width:385px; height:240px; float: left; margin-left:14px;overflow: hidden;}
+.flashbox .f_tabs span{ width:23px; height:19px; background-color:#474747; float: left; margin-right:3px; text-align:center; color:#f0f0f0; margin-top:15px; cursor:pointer;}
+.flashbox .f_tabs span.hover{ height:19px; background-color:#B51017; margin-top:0; padding-top:15px; cursor:pointer;}
+.flashbox .focusNew_out .f_out img{ width:390px; height:240px;}
+.mymain ul li{list-style:none; height:23px;overflow: hidden;}
+.mymain ul li a{float: left;}
+.mymain ul li label{float: right;margin-right: 5px;color:#999999;}
+.mymain .mytitle{height:30px; background:#005499; line-height:30px; border-bottom:5px solid #9A0000; font-size:14px;}
+.mymain .mytitle a{color:#FFFFFF; display:block; float:left; width:70px; height:30px; text-align:center; line-height:30px; margin-left:5px; cursor:pointer;}
+.mymain .mytitle a:hover{text-decoration: none;}
+.mymain .mytitle .mayicurre{ background:#9A0000;}
+.mymain .mayi_rigth{ width:150px; height:240px; float:left;margin-left: 14px;}
+.mymain .mayi_index{background:#AAAAAA;color: #FFFFFF;height: 14px;line-height: 14px;text-align: center; width: 17px; display:block; float:left; margin:4px;_margin:2px;}
+.mymain .mayi_newtop .mayi_index{background:#FF6D00;}
+.mymain .mytitle2{height:30px; background:#005499; line-height:30px; border-bottom:5px solid #9A0000; font-size:14px;}
+.mymain .mytitle2 a{color:#FFFFFF; display:block; float:left; width:70px; height:30px; text-align:center; line-height:30px; margin-left:5px; cursor:pointer;}
+.mymain .mytitle2 a:hover{text-decoration: none;}
+.mymain .mytitle2 .mayicurre{ background:#9A0000;}

@@ -236,7 +236,7 @@ if(!$gid && (!defined('FORUM_INDEX_PAGE_MEMORY') || !FORUM_INDEX_PAGE_MEMORY)) {
 		$index ++;
 	}
 	$datas = json_encode($datas);
-	debug(print($datas));
+	//debug(print($datas));
 	/*$new_arr = [];
 	foreach($datas as $k => $v){
 		$new_arr[$v['date']][]= $v;

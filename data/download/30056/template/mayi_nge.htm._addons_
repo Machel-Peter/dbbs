@@ -1,0 +1,43 @@
+<!--{block return}-->
+
+<link type="text/css" rel="stylesheet" href="source/plugin/mayi_nge/template/css/style.css" />
+<style>
+<!--
+.mymain .mytitle{background:{$backcolor};border-bottom:5px solid {$focuscolor};}
+.mymain .mytitle a{color:{$fontcolor};}
+.mymain .mytitle .mayicurre{background:{$focuscolor};color:{$focusfontcolor};}
+.mymain .public_border{border:1px solid {$borcolor};}
+-->
+</style>
+<div class="mymain">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script language="JavaScript" src="source/plugin/mayi_nge/template/js/bigpicroll.js"></script>
+  	<div class="flashbox f_list public_border">
+    	<div class="focusNew_out flashlist">
+	        {$hotpic}
+         <div class="f_tabs">
+	        {$index}
+        </div>
+        </div>
+       </div>
+       <div class="formnews public_border" id="_mayi_formnews ">
+        <h4 class="mytitle" id="_mayititle"><a class="mayicurre">{$title1}</a><a>{$title2}</a><a>{$title3}</a></h4>
+        <ul>
+        {$listforum}
+        </ul>
+        <ul style="display: none;">
+        {$listforum2}
+        </ul>
+         <ul style="display: none;">
+       {$listforum3}
+        </ul>
+       </div>
+       <div class="mayi_rigth public_border" id="_mayi_rigth">
+       <h4 class="mytitle"><a class="mayicurre">{$title4}</a> </h4>
+        <ul>
+        {$userlist}
+       </ul>
+       </div>
+    <script type="text/javascript">FeatureList(".f_list",{"onclass":"hover","offclass":"","pause_on_act":"click","interval":5000,"speed":5});</script>
+</div>
+<!--{/block}-->

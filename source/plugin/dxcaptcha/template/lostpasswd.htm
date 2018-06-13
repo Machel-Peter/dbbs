@@ -1,0 +1,48 @@
+<!--{block return1}-->
+<style type="text/css">#$oculus_id{{$style};}</style>
+<script src="$this->captchaUrl" crossOrigin="anonymous"></script>
+            <script type="text/javascript" reload="1" defer="true">
+                function findParentByTagName(elem, name) {
+                    while(elem) {
+                        if ((elem.tagName && elem.tagName.toLowerCase()) === name) {break;}
+                        elem = elem.parentNode;
+                    }  
+                    return elem;
+                }
+
+                var button = document.getElementsByName("lostpwsubmit")[0];
+                var obj = document.createElement("input");
+                obj.name = "dx_verify_token";
+                obj.id = "dx_verify_token_lostpwd";
+                obj.type = "hidden";
+
+                var captcha_node = document.createElement("input");
+                captcha_node.name = "captcha_id";
+                captcha_node.type = "hidden";
+                captcha_node.value = "myCaptcha_lostpwd";
+
+                var table = findParentByTagName(document.getElementById("lostpw_username"),'table');
+
+                var tbody = document.createElement("tbody");
+                tbody.innerHTML = "<tr><th><span class='rq'>*</span><label>&#28369;&#22359;&#39564;&#35777;:</label></th><td><div id='dx_lostpwd'></div></td></tr>";
+                if(table != null){
+                    table.appendChild(tbody);
+                    table.appendChild(obj);
+                    table.appendChild(captcha_node);
+
+                    var myCaptcha_lostpwd=_dx.Captcha(document.getElementById("dx_lostpwd"), {
+                        appKey: "$this->appkey",
+                        style: "inline",
+                        success: function (token) {
+                            document.getElementById("dx_verify_token_lostpwd").value=token;
+                            setTimeout(function(){
+                                myCaptcha_lostpwd.reload();
+                                if (document.getElementById('dx_verify_token_lostpwd') != null) {
+                                    document.getElementById("dx_verify_token_lostpwd").value="";
+                                }
+                            },90*1000);
+                        }
+                    });
+                }
+            </script>
+<!--{/block}-->

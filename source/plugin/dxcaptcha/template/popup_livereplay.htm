@@ -1,0 +1,17 @@
+<!--{block return}-->
+<style type="text/css">#$dx_captcha_id{{$style};}</style>
+    <div id='$dx_captcha_id' class=''><table><tbody><tr><th style='width:65px;'><div id='oc_tx'><span class="rq">*</span>&#28369;&#22359;&#39564;&#35777;:</div></th><td>
+    <div id="$random_id" ></div></td></tr></tbody></table>
+    <input type="hidden" name="dx_verify_token" id="dx_verify_token6">
+    <input type="hidden" name="captcha_id" value="myCaptcha2">
+    </div><script type="text/javascript"  reload="1" defer="true">
+                    var myCaptcha2 = _dx.Captcha(document.getElementById("$random_id"), {
+                        appKey: "$this->appkey",
+                        style: "inline",
+                        success: function (token) {
+                            document.getElementById("dx_verify_token6").value = token;
+                            setTimeout(function(){myCaptcha2.reload();document.getElementById("dx_verify_token6").value="";},90*1000);
+                        }
+                    })
+                </script>
+<!--{/block}-->

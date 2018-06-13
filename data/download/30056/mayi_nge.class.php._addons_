@@ -1,0 +1,145 @@
+<?php
+
+
+class plugin_mayi_nge{
+   
+   function __construct(){
+      loadcache('plugin');
+      global $_G;
+      $this->vars = $_G['cache']['plugin']['mayi_nge'];
+   }	
+	
+   public function mayi_hotpic(){
+       $forumid = unserialize($this->vars['hotpic']);
+       $notin='';
+       if(is_array($forumid)){
+          $notin=' and a.fid in('.implode(',',$forumid).')';
+       }
+       $num = intval($this->vars['pic_num'])==0 ? 5 : intval($this->vars['pic_num']);
+       $datetime = strtotime('-30 day',time()); //30天的热帖
+       $sql = DB::query("SELECT a.tid,a.fid,a.subject,p.attachment FROM ".DB::table('forum_thread')." a left join ".DB::table('forum_threadimage')." p on a.tid=p.tid WHERE a.displayorder>=0 and p.attachment<>'' and a.lastpost>'$datetime' $notin order by a.views DESC limit 0 ,".$num);
+       $strimg="";
+       $i=1;
+       $this->_index='';
+       while($value=DB::fetch($sql)){
+       	 if($i==1){
+       	  $strimg .= '<div style="display:block;" class="f_out">
+                     <span class="f_out_txt"><a href="forum.php?mod=viewthread&tid='.$value['tid'].'" target="_blank" title="'.$value['subject'].'">'.$value['subject'].'</a></span>
+                     <a target="_blank" href="forum.php?mod=viewthread&tid='.$value['tid'].'"><img  alt="'.$value['subject'].'" title="'.$value['subject'].'" src="data/attachment/forum/'.$value['attachment'].'"></a>     
+                     </div>';
+       	  $this->_index.='<span class="f_tab hover">'.$i.'</span>';
+       	 }else{
+       	 $strimg .= '<div style="display:none;" class="f_out">
+                     <span class="f_out_txt"><a href="forum.php?mod=viewthread&tid='.$value['tid'].'" target="_blank" title="'.$value['subject'].'">'.$value['subject'].'</a></span>
+                     <a target="_blank" href="forum.php?mod=viewthread&tid='.$value['tid'].'"><img  alt="'.$value['subject'].'" title="'.$value['subject'].'" src="data/attachment/forum/'.$value['attachment'].'"></a>     
+                     </div>';
+       	  $this->_index.='<span class="f_tab">'.$i.'</span>';
+       	 }
+       	 $i++;
+       }
+       return $strimg;
+   }
+   public function mayi_newforum(){
+       $forumid = unserialize($this->vars['forum1_id']);
+       $notin='';
+       if(is_array($forumid)){
+          $notin=' and fid in('.implode(',',$forumid).')';
+       }
+       $querysql = DB::query("SELECT tid,fid,author,subject FROM ".DB::table('forum_thread')." WHERE displayorder>=0 $notin order by lastpost desc limit 0,9");
+       $i=1;
+       $listforum = '';
+       while($value=DB::fetch($querysql)){
+       	   if($i<4){
+       	   	  $listforum .= '<li class="mayi_newtop"><span class="mayi_index">'.$i.'</span><a href="forum.php?mod=viewthread&tid='.$value['tid'].'" title="'.$value['subject'].'">'.cutstr($value['subject'],40,'...').'</a><label>['.$value['author'].']</label></li>';
+       	   }else{
+       	     $listforum .= '<li><span class="mayi_index">'.$i.'</span><a href="forum.php?mod=viewthread&tid='.$value['tid'].'" title="'.$value['subject'].'">'.cutstr($value['subject'],40,'...').'</a><label>['.$value['author'].']</label></li>';
+       	   }
+       	   $i++;
+       }
+       return $listforum;
+   }
+public function mayi_newforum2(){
+       $forumid = unserialize($this->vars['forum2_id']);
+       $notin='';
+       if(is_array($forumid)){
+          $notin=' and fid in('.implode(',',$forumid).')';
+       }
+       $datetime = strtotime('-7 day',time()); //7天的热帖
+       $querysql = DB::query("SELECT tid,fid,author,subject,lastpost  FROM ".DB::table('forum_thread')." WHERE displayorder>=0 and lastpost >'$datetime' $notin order by views desc limit 0,9");
+       $i=1;
+       $listforum = '';
+       while($value=DB::fetch($querysql)){
+       	   $datitme = date('Y/m/d',$value['lastpost']);
+       	   if($i<4){
+       	   	  $listforum .= '<li class="mayi_newtop"><span class="mayi_index">'.$i.'</span><a href="forum.php?mod=viewthread&tid='.$value['tid'].'" title="'.$value['subject'].'">'.cutstr($value['subject'],40,'...').'</a><label>['.$datitme.']</label></li>';
+       	   }else{
+       	     $listforum .= '<li><span class="mayi_index">'.$i.'</span><a href="forum.php?mod=viewthread&tid='.$value['tid'].'" title="'.$value['subject'].'">'.cutstr($value['subject'],40,'...').'</a><label>['.$datitme.']</label></li>';
+       	   }
+       	   $i++;
+       }
+       return $listforum;
+   }
+public function mayi_newforum3(){
+       $forumid = unserialize($this->vars['forum3_id']);
+       $notin='';
+       if(is_array($forumid)){
+          $notin=' and fid in('.implode(',',$forumid).')';
+       }
+       $datetime = strtotime('-30 day',time()); //7天的热帖
+       $querysql = DB::query("SELECT tid,fid,author,subject,lastpost  FROM ".DB::table('forum_thread')." WHERE displayorder>=0 and lastpost > '$datetime' $notin order by views desc limit 0,9");
+       $i=1;
+       $listforum = '';
+       while($value=DB::fetch($querysql)){
+       	   $datitme = date('Y/m/d',$value['lastpost']);
+       	   if($i<4){
+       	   	  $listforum .= '<li class="mayi_newtop"><span class="mayi_index">'.$i.'</span><a href="forum.php?mod=viewthread&tid='.$value['tid'].'" title="'.$value['subject'].'">'.cutstr($value['subject'],40,'...').'</a><label>['.$datitme.']</label></li>';
+       	   }else{
+       	     $listforum .= '<li><span class="mayi_index">'.$i.'</span><a href="forum.php?mod=viewthread&tid='.$value['tid'].'" title="'.$value['subject'].'">'.cutstr($value['subject'],40,'...').'</a><label>['.$datitme.']</label></li>';
+       	   }
+       	   $i++;
+       }
+       return $listforum;
+   }
+   public function hotuserlist(){
+      //30天发帖的用户
+      $datetime = strtotime('-30 day',time());
+      $querysql = DB::query("SELECT count(tid) as num ,author FROM ".DB::table('forum_thread')." WHERE displayorder>=0 group by author order by num desc limit 0,9");
+      $userlist='';
+      $i=1; 
+      while($value=DB::fetch($querysql)){
+       	  if($i<4){
+       	  	$userlist .='<li class="mayi_newtop"><span class="mayi_index">'.$i.'</span><a  href="home.php?mod=space&username='.$value['author'].'">'.$value['author'].'</a><label>['.$value['num'].']</label></li>';
+       	  }else{
+       	    $userlist .='<li><span class="mayi_index">'.$i.'</span><a href="home.php?mod=space&username='.$value['author'].'">'.$value['author'].'</a><label>['.$value['num'].']</label></li>';
+       	  }
+       	  $i++;
+       }
+       return $userlist;
+   }
+}
+
+class plugin_mayi_nge_forum extends plugin_mayi_nge{
+
+   function index_top(){
+   	   if($this->vars['isopen']){
+	   	   $hotpic = $this->mayi_hotpic();
+	   	   $index =  $this->_index;
+	   	   $title1=$this->vars['title1'];
+	   	   $title2=$this->vars['title2'];
+	   	   $title3=$this->vars['title3'];
+	   	   $title4=$this->vars['title4'];
+	   	   $listforum = $this->mayi_newforum();
+	   	   $listforum2 = $this->mayi_newforum2();
+	   	   $listforum3 = $this->mayi_newforum3();
+	   	   $userlist = $this->hotuserlist();
+	   	   $backcolor = $this->vars['backcolor'];    //背影颜色
+	   	   $focuscolor = $this->vars['focuscolor']; //标题栏高亮颜色
+	   	   $fontcolor = $this->vars['fontcolor'];  //标题栏字体颜色
+	   	   $borcolor = $this->vars['borcolor'];   //插件边框线颜色
+	   	   $focusfontcolor = $this->vars['focusfontcolor'];//标题高亮字体颜色
+	       include template('mayi_nge:mayi_nge');
+	       return $return;
+   	   }
+   }
+   
+}

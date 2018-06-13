@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="Version"><![CDATA[X2,X2.5,X3,X3.1,X3.2,F1.0,L1.0,X3.3,X3.4]]></item>
+	<item id="Time"><![CDATA[2018-01-03 17:23]]></item>
+	<item id="From"><![CDATA[333]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[1]]></item>
+			<item id="adminid"><![CDATA[1]]></item>
+			<item id="name"><![CDATA[論壇動態]]></item>
+			<item id="identifier"><![CDATA[nimba_session]]></item>
+			<item id="description"><![CDATA[論壇動態 for Discuz!  Dz盒子 出品 功能介紹：讓管理員了解論壇會員(包含游客)都在瀏覽哪些內容，了解論壇訪客質量的構成，安裝后在前臺“管理中心”右側會有一個快捷方式，只有管理員能看見！]]></item>
+			<item id="datatables"><![CDATA[]]></item>
+			<item id="directory"><![CDATA[nimba_session/]]></item>
+			<item id="copyright"><![CDATA[Dz盒子（www.idzbox.com）]]></item>
+			<item id="version"><![CDATA[v3.5.2]]></item>
+			<item id="__modules">
+				<item id="0">
+					<item id="name"><![CDATA[hook]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[11]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="1">
+					<item id="name"><![CDATA[addon]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[應用推薦]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[99]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="1999">
+					<item id="name"><![CDATA[admincp_addondzbox]]></item>
+					<item id="menu"><![CDATA[<span style="color:#E53333;"><b>應用中心</b></span>]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+			</item>
+		</item>
+		<item id="version"><![CDATA[X2,X2.5,X3,X3.1,X3.2,F1.0,L1.0,X3.3,X3.4]]></item>
+		<item id="var">
+			<item id="0">
+				<item id="displayorder"><![CDATA[0]]></item>
+				<item id="title"><![CDATA[單頁顯示數量]]></item>
+				<item id="description"><![CDATA[建議設置成50，在一個頁面里顯示的動態數目，超過此數目將分頁顯示！]]></item>
+				<item id="variable"><![CDATA[pagenum]]></item>
+				<item id="type"><![CDATA[number]]></item>
+				<item id="value"><![CDATA[50]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="1">
+				<item id="displayorder"><![CDATA[1]]></item>
+				<item id="title"><![CDATA[許可用戶組]]></item>
+				<item id="description"><![CDATA[能夠有權查看論壇動態數據的用戶組，站長可根據自身網站運營情況適當公開！]]></item>
+				<item id="variable"><![CDATA[group]]></item>
+				<item id="type"><![CDATA[groups]]></item>
+				<item id="extra"><![CDATA[]]></item>
+				<item id="__value">
+					<item id="0"><![CDATA[9]]></item>
+					<item id="1"><![CDATA[10]]></item>
+					<item id="2"><![CDATA[11]]></item>
+					<item id="3"><![CDATA[12]]></item>
+					<item id="4"><![CDATA[13]]></item>
+					<item id="5"><![CDATA[14]]></item>
+					<item id="6"><![CDATA[15]]></item>
+					<item id="7"><![CDATA[16]]></item>
+					<item id="8"><![CDATA[17]]></item>
+					<item id="9"><![CDATA[18]]></item>
+					<item id="10"><![CDATA[19]]></item>
+					<item id="11"><![CDATA[1]]></item>
+					<item id="12"><![CDATA[2]]></item>
+					<item id="13"><![CDATA[3]]></item>
+					<item id="14"><![CDATA[7]]></item>
+				</item>
+			</item>
+			<item id="2">
+				<item id="displayorder"><![CDATA[2]]></item>
+				<item id="title"><![CDATA[導航位置]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[nav]]></item>
+				<item id="type"><![CDATA[select]]></item>
+				<item id="value"><![CDATA[5]]></item>
+				<item id="extra"><![CDATA[1=不顯示
+2=頁頭導航
+3=主導航
+4=頁尾導航
+5=頁頭用戶信息欄]]></item>
+			</item>
+			<item id="3">
+				<item id="displayorder"><![CDATA[3]]></item>
+				<item id="title"><![CDATA[導航名稱]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[name]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[論壇動態]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+		</item>
+		<item id="language">
+			<item id="scriptlang">
+				<item id="appname"><![CDATA[論壇動態]]></item>
+				<item id="actname"><![CDATA[用戶名]]></item>
+				<item id="actthread"><![CDATA[主題數目]]></item>
+				<item id="actreply"><![CDATA[回復數目]]></item>
+				<item id="actuseip"><![CDATA[登錄地區]]></item>
+				<item id="actdateline"><![CDATA[最后活躍時間]]></item>
+				<item id="ntname"><![CDATA[作者]]></item>
+				<item id="nttime"><![CDATA[發帖時間]]></item>
+				<item id="ntviews"><![CDATA[查看數]]></item>
+				<item id="ntreplis"><![CDATA[回復數]]></item>
+				<item id="ntforum"><![CDATA[所屬板塊]]></item>
+				<item id="ntsubject"><![CDATA[帖子標題]]></item>
+				<item id="nobirth"><![CDATA[不詳]]></item>
+				<item id="nuname"><![CDATA[用戶]]></item>
+				<item id="nuregdate"><![CDATA[注冊時間]]></item>
+				<item id="nuadd"><![CDATA[注冊地點]]></item>
+				<item id="nubirth"><![CDATA[注冊郵箱]]></item>
+				<item id="nulast"><![CDATA[最后活躍時間]]></item>
+				<item id="tab1"><![CDATA[論壇動態]]></item>
+				<item id="tab2"><![CDATA[會員動態]]></item>
+				<item id="tab3"><![CDATA[游客動態]]></item>
+				<item id="tab4"><![CDATA[會員數據]]></item>
+				<item id="tab5"><![CDATA[今日新帖]]></item>
+				<item id="tab6"><![CDATA[新增會員]]></item>
+				<item id="sorry"><![CDATA[對不起，您沒有查看權限，請聯系管理員獲取權限！]]></item>
+				<item id="youke"><![CDATA[游客]]></item>
+				<item id="see"><![CDATA[正在查看]]></item>
+				<item id="item"><![CDATA[統計類目]]></item>
+				<item id="add"><![CDATA[來訪地區]]></item>
+				<item id="time"><![CDATA[來訪時間]]></item>
+				<item id="forum"><![CDATA[瀏覽模塊]]></item>
+				<item id="viewthread"><![CDATA[停留頁面]]></item>
+				<item id="nodata"><![CDATA[暫無數據查看,表明在當前時間段內沒有人訪問您的網站！]]></item>
+				<item id="gg"><![CDATA[當前位置]]></item>
+				<item id="ggdata"><![CDATA[您當前位置：]]></item>
+				<item id="read"><![CDATA[使用說明]]></item>
+				<item id="readdata"><![CDATA[功能介紹：讓管理員了解論壇會員(包含游客)都在瀏覽哪些內容，了解論壇訪客來源及用戶質量的構成！]]></item>
+				<item id="itemdata"><![CDATA[1、家園交友<br>2、論壇社區(詳細)<br>3、群組圈子<br>4、門戶文章<br>5、漫游游戲<br>6、插件應用]]></item>
+				<item id="copyright"><![CDATA[版權聲明]]></item>
+				<item id="copyrightdata"><![CDATA[<span style="font: bold Arial; color: #fbb040;">論壇動態</span> 增強版 for Discuz! 作者 土著人寧巴 <span style="font: bold Verdana; color: #f15a29;">Dz盒子</span> 出品（Made By Nimba, Team From idzbox.com ），尊重作者勞動成果，使用本插件請保留版權聲明，謝謝！]]></item>
+				<item id="appid_id1"><![CDATA[家園交友]]></item>
+				<item id="appid_id2"><![CDATA[論壇社區]]></item>
+				<item id="appid_id3"><![CDATA[群組圈子]]></item>
+				<item id="appid_id4"><![CDATA[門戶文章]]></item>
+				<item id="appid_id5"><![CDATA[漫游游戲]]></item>
+				<item id="appid_id127"><![CDATA[插件應用]]></item>
+				<item id="tj_1"><![CDATA[今日新增會員:]]></item>
+				<item id="tj_2"><![CDATA[<br>今日主題數:]]></item>
+				<item id="tj_3"><![CDATA[<br>今日回帖數:]]></item>
+				<item id="tj_4"><![CDATA[<br>今日發帖會員數:]]></item>
+				<item id="tj_5"><![CDATA[<br>今日回帖會員數:]]></item>
+			</item>
+			<item id="templatelang">
+				<item id="appname"><![CDATA[論壇動態]]></item>
+			</item>
+		</item>
+		<item id="installfile"><![CDATA[install.php]]></item>
+		<item id="uninstallfile"><![CDATA[uninstall.php]]></item>
+		<item id="upgradefile"><![CDATA[upgrade.php]]></item>
+		<item id="license"><![CDATA[[*]Dz盒子：www.idzbox.com.
+[*]更多商業插件/模版免費下載 百度搜索 Dz盒子.
+[*]本資源來源于網絡收集,僅供個人學習交流，請勿用于商業用途，并于下載24小時后刪除!
+[*][b]技術支持:[/b][url=http://www.idzbox.com/]Dz盒子[/url]
+[*]如果侵犯了您的權益,請及時告知我們,我們即刻刪除!.
+[*][color=Red]如果您愿意資助我們,請至[url]http://www.idzbox.com[/url]對我們進行贊助.[/color]
+[*]最后,感謝您使用我們分享的插件,更多精品插件盡在Dz盒子).]]></item>		
+	</item>
+</root>

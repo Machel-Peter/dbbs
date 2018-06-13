@@ -1,0 +1,14 @@
+<!--{block return}-->
+<style type="text/css">#$dx_captcha_id{{$style};}</style>
+    <div id='$dx_captcha_id' class=''><table><tbody><tr><td>
+    <div id="$random_id"></div></td></tr></tbody></table></div><input type="hidden" name="dx_verify_token" id="dx_verify_token5"><input type="hidden" name="captcha_id" value="myCaptcha"><script type="text/javascript"  reload="1" defer="true">
+                    var myCaptcha = _dx.Captcha(document.getElementById("$random_id"), {
+                        appKey: "$this->appkey",
+                        style: "popup",
+                        success: function (token) {
+                            document.getElementById("dx_verify_token5").value=token;
+                            myCaptcha.hide();
+                        }
+                    })
+                </script>
+<!--{/block}-->

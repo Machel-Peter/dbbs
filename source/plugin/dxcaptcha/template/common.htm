@@ -1,0 +1,17 @@
+<!--register logging-->
+<!--{block return}-->
+<style type="text/css">#$dx_captcha_id{{$style};}</style>
+<div id='$dx_captcha_id' class='rfm'><table><tbody><tr><th><div><span class="rq">*</span>&#28369;&#22359;&#39564;&#35777;:</div></th><td>
+<div id='$random_id'></div></td></tr></tbody></table></div><input type="hidden" name="dx_verify_token" id="$dx_captcha_verify_id"><input type="hidden" name="captcha_id" value="myCaptcha">
+<script type="text/javascript" reload="1" defer="true">
+                var myCaptcha = _dx.Captcha(document.getElementById("$random_id"), {
+                    appKey: "$this->appkey",
+                    style: "inline",
+                    success: function (token) {
+                        // console.info(token);
+                        document.getElementById("$dx_captcha_verify_id").value=token;
+                        setTimeout(function(){myCaptcha.reload();document.getElementById("$dx_captcha_verify_id").value="";},90*1000);
+                    }
+                })
+            </script>
+<!--{/block}-->

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[dxcaptcha.plugin]]></item>
+	<item id="RevisionID"><![CDATA[79153]]></item>
+	<item id="SN"><![CDATA[20180612118z6vRRcc0h]]></item>
+	<item id="RevisionDateline"><![CDATA[1519855202]]></item>
+	<item id="Data">
+		<item id="/config/config.php"><![CDATA[29dd787c687237a7fa4daf5e2e921b86]]></item>
+		<item id="/config/dxcaptcha.php"><![CDATA[c521a7b890e1afe06ba1be726176d950]]></item>
+		<item id="/config/index.htm"><![CDATA[d41d8cd98f00b204e9800998ecf8427e]]></item>
+		<item id="/discuz_plugin_dxcaptcha_SC_GBK.xml"><![CDATA[7a36215713a4d8798dccc7b88d69f1a3]]></item>
+		<item id="/discuz_plugin_dxcaptcha_SC_UTF8.xml"><![CDATA[573f807d3640dc08fa4a527660899b24]]></item>
+		<item id="/discuz_plugin_dxcaptcha_TC_BIG5.xml"><![CDATA[f58105dd64401627251095a855404026]]></item>
+		<item id="/discuz_plugin_dxcaptcha_TC_UTF8.xml"><![CDATA[e5e133092336fc9922d248862d2eeb3e]]></item>
+		<item id="/dxcaptcha.class.php"><![CDATA[51c644044af4912b49f9c621e9b939cf]]></item>
+		<item id="/dxcaptcha_mobile.class.php"><![CDATA[cf130eef3ebb4de027fbd7fad28a1c48]]></item>
+		<item id="/index.html"><![CDATA[d41d8cd98f00b204e9800998ecf8427e]]></item>
+		<item id="/js/dx.js"><![CDATA[871ab141ff10d3e8caecd743f67626cf]]></item>
+		<item id="/js/dx_mobile.js"><![CDATA[fdd718ac8ed8e3ac825e0aaf8edec582]]></item>
+		<item id="/js/index.htm"><![CDATA[d41d8cd98f00b204e9800998ecf8427e]]></item>
+		<item id="/plugin_class/index.htm"><![CDATA[d41d8cd98f00b204e9800998ecf8427e]]></item>
+		<item id="/plugin_class/plugin_dxcaptcha_forum.class.php"><![CDATA[fee12603bf320387e95673dcb5af2066]]></item>
+		<item id="/plugin_class/plugin_dxcaptcha_group.class.php"><![CDATA[29a178a386d5871cad3596a5e95d3976]]></item>
+		<item id="/plugin_class/plugin_dxcaptcha_home.class.php"><![CDATA[ba0d7ef3e3c04a479bc68e7642cb4573]]></item>
+		<item id="/plugin_class/plugin_dxcaptcha_member.class.php"><![CDATA[0c29ac9317a6c36d0ac59010d15c7727]]></item>
+		<item id="/template/blog.htm"><![CDATA[2f1e874c3d0d093a497454f4ce327486]]></item>
+		<item id="/template/common.htm"><![CDATA[b069c79f0c6d3c76cb71d630e45e4dc7]]></item>
+		<item id="/template/follow_comment.htm"><![CDATA[d65f601206bbbe1ff784a4285cb52cf6]]></item>
+		<item id="/template/index.htm"><![CDATA[d41d8cd98f00b204e9800998ecf8427e]]></item>
+		<item id="/template/lostpasswd.htm"><![CDATA[168d808c5b1e2647d08a7dd909913c07]]></item>
+		<item id="/template/newthread_edit.htm"><![CDATA[9ed3d0abc766150f24dba0b05073e66d]]></item>
+		<item id="/template/popup.htm"><![CDATA[7940b9b4ce0387cb57425149e0a81ebc]]></item>
+		<item id="/template/popup_livereplay.htm"><![CDATA[9a6e49c63633eedba17b4c0987db0c6f]]></item>
+		<item id="/template/popup_pay.htm"><![CDATA[531ede7b3789f1be27333916420052bb]]></item>
+		<item id="/template/reply.htm"><![CDATA[961a32ec10452d45d4aaa0a2b31cc01f]]></item>
+		<item id="/upgradeinfo.inc.php"><![CDATA[fd211b2997a245d95b653c77db06a9ee]]></item>
+		<item id="/util/HttpHelper.php"><![CDATA[346575d70299c77acb2566e68c2ddfac]]></item>
+		<item id="/util/index.htm"><![CDATA[d41d8cd98f00b204e9800998ecf8427e]]></item>
+	</item>
+</root>

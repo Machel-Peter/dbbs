@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[geetest3.plugin]]></item>
+	<item id="RevisionID"><![CDATA[74976]]></item>
+	<item id="SN"><![CDATA[2018060618pey8IHopDY]]></item>
+	<item id="RevisionDateline"><![CDATA[1500005236]]></item>
+	<item id="Data">
+		<item id="/.DS_Store"><![CDATA[194577a7e20bdcc7afbb718f502c134c]]></item>
+		<item id="/discuz_plugin_geetest3_SC_GBK.xml"><![CDATA[09ea848b92f8ea29780e34e05c8b5005]]></item>
+		<item id="/discuz_plugin_geetest3_SC_UTF8.xml"><![CDATA[e9cbfbee52f1d00b85bf00d610afbe0b]]></item>
+		<item id="/discuz_plugin_geetest3_TC_BIG5.xml"><![CDATA[ec71267c2e27d6a98a24790cf4bf9622]]></item>
+		<item id="/discuz_plugin_geetest3_TC_UTF8.xml"><![CDATA[afab9fad2036c78d74d1e654790466ea]]></item>
+		<item id="/geetest3.class.php"><![CDATA[93da5bae04daac96ed951f51d6808a70]]></item>
+		<item id="/geetest3.inc.php"><![CDATA[bb47cf51321f8249a42a38c2da133476]]></item>
+		<item id="/geetest3_mobile.class.php"><![CDATA[59cee5bf4f31c36d3b07d4d59f9298f9]]></item>
+		<item id="/install.php"><![CDATA[f5b0a13cdc8d17195a0aeb7143a38dc5]]></item>
+		<item id="/js/geetest_mobile.js"><![CDATA[ce32a97cd48bfbfd1831c958fd3d379d]]></item>
+		<item id="/js/gt.js"><![CDATA[87d1e58e54fb76b16b649cd025f63a3b]]></item>
+		<item id="/js/gt3-init.js"><![CDATA[16714c3f957f541876828de4d31ba5d3]]></item>
+		<item id="/js/mobile_init.js"><![CDATA[aba0eb5ea64a8a3a04d8156b31fbbf09]]></item>
+		<item id="/lib/geetestlib.php"><![CDATA[ba56eb4fb5d0a2349dfc9fd69644c3d8]]></item>
+		<item id="/plugin_class/plugin_geetest3_forum.class.php"><![CDATA[fe4cc46af9638e4007fd2411b83d8f64]]></item>
+		<item id="/plugin_class/plugin_geetest3_group.class.php"><![CDATA[f8f5a12c3bf1f41b4bd4db0554f386c3]]></item>
+		<item id="/plugin_class/plugin_geetest3_home.class.php"><![CDATA[4358fb4161c4cdfd2f7f893e419a080c]]></item>
+		<item id="/plugin_class/plugin_geetest3_member.class.php"><![CDATA[6c493f8169ef154f21815079bc6279cf]]></item>
+		<item id="/upgrade.php"><![CDATA[fce6e360a235b53c2022e9fa3bbea0db]]></item>
+	</item>
+</root>
